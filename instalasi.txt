@@ -1,0 +1,21 @@
+//MAIL SERVER
+apt-get install postfix courier-imap courier-pop
+
+/etc/skel
+/etc/skel/maildir
+adduser [nama]
+adduser pak rektor
+
+nano /etc/postfix/main.cf
+
+dpkg-reconfigure postfix
+general type : internet site
+force : no
+local : 0.0.0.0/0
+use : no
+mailbox : 0
+local : +
+internet : ipv4
+
+terus restart : etc/init.d/postfix restart
+/etc/init.d/courier-imap restart
