@@ -1,6 +1,5 @@
 <?php
 //rofifahnurmufidah k3513061
-//tugasfossPTIKUNS2013
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
